@@ -21,34 +21,32 @@ int main()
    cout<<"Imate\n"<<jabuke<< "Jabuke\n"<<bomboni<< "Bomboni\n" <<jagode<< "Jagode\n"<<krafne<< "Krafne\n\n";
    cout<<"Preostalo novaca  kn "<<novcanik<<".\n\n";
    cout<<"Napisite broj koji predstavlja proizvod koji zelite ili napisite broj 5 za provjeru.\n\n\n";
-   cin >> userchoice;
+   cin>>userchoice;
    if(userchoice==1)
-   {
-     jabuke++;
-     novcanik=novcanik - 10;
-   }
+{
+ jabuke++;
+ novcanik=novcanik-10;
+}
    if(userchoice==2)
-   {
-     bomboni++;
-     novcanik=novcanik - 15;
-   }
+{
+ bomboni++;
+ novcanik=novcanik-15;
+}
    if(userchoice==3)
-   {
-     jagode++;
-     novcanik=novcanik - 7;
-   }
+{
+ jagode++;
+ novcanik=novcanik-7;
+}
    if(userchoice==4)
-   {
-     krafne++;
-     novcanik=novcanik - 10;
-   }
+{
+ krafne++;
+ novcanik=novcanik-10;
+}
    if(userchoice==5)
 {
- cout<<"\n\n Zahvaljujemo na posjeti\n";
+ cout<<"\n\n Ugodan ostatak dana!\n\n";
  cin.get();
   return 0;
 }
-   cin.get();
-    return 0;
 }
 }
